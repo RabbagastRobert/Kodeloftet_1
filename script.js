@@ -14,3 +14,9 @@ setInterval(() => {
     }
     mainHeader.innerText = wonkyText;
 }, 250);
+
+const sorryElement = document.getElementById('sorry');
+sorryElement.addEventListener('mouseover', () => {
+    sorryElement.innerText = 'Nah, not really';
+    sorryElement.style.right = "-10px";
+})
