@@ -32,19 +32,41 @@ nav a {
   color: #555;
 }
 
-nav a[aria-current='page'] {
+nav a[aria-current="page"] {
   color: #000;
   background-color: #d4d4d4;
 }
 
 main {
   padding: 0.5rem;
-  color: #fff;
-  -webkit-text-stroke: 1px navy;
 }
 
-h1 {
+main h1 {
+  text-align: center;
+  font-family: monospace;
   font-weight: bold;
   font-size: 2.5rem;
   font-variant: small-caps;
+  font-kerning: none;
+  letter-spacing: 30px;
+  rotate: 1deg;
+  background: linear-gradient(
+    to right,
+    red 20%,
+    orange 20% 40%,
+    yellow 40% 60%,
+    green 60% 80%,
+    blue 80%
+  );
+  color: #fff;
+  -webkit-text-stroke: 1px navy;
+  mix-blend-mode: screen;
+  outline: 1px solid #fff;
+}
+
+main #sorry {
+  position: absolute;
+  bottom: 100px;
+  right: -90px;
+  rotate: 90deg;
 }
