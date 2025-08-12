@@ -1,12 +1,13 @@
 * {
   box-sizing: border-box;
+  margin: 0;
 }
 
 body {
   margin: 0;
   font-family: system-ui, sans-serif;
   color: black;
-  background-color: white;
+  background-color: rgb(51, 93, 148);
 }
 
 nav {
@@ -37,10 +38,13 @@ nav a[aria-current='page'] {
 }
 
 main {
-  padding: 1rem;
+  padding: 0.5rem;
+  color: #fff;
+  -webkit-text-stroke: 1px navy;
 }
 
 h1 {
   font-weight: bold;
-  font-size: 1.5rem;
+  font-size: 2.5rem;
+  font-variant: small-caps;
 }

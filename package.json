@@ -1,4 +1,7 @@
 {
+  "author": {
+    "name": "Robert Larsen"
+  },
   "scripts": {
     "start": "servor --reload"
   },
